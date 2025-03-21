@@ -55,12 +55,26 @@ python manage.py runserver
 ```
 
 ## API Endpoints
-**POST** /register/ - Register a new user.
-**GET** /balance/ - Get user balance (JWT required).
-**POST** /currency/ - Get currency exchange rate (JWT required).
-**GET** /history/ - Get exchange history (JWT required).
-**POST** /token/ - Get JWT token (username & password required)
+
+### **POST** `/register/`  
+Register a new user.
+
+### **GET** `/balance/`  
+Get user balance. **JWT token required.**
+
+### **POST** `/currency/`  
+Get currency exchange rate. **JWT token required.**
+
+### **GET** `/history/`  
+Get exchange history. **JWT token required.**
+
+### **POST** `/token/`  
+Get JWT token using username and password.
+
+---
 
 ## API Documentation with Swagger
 
-You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint.
+You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint:
+
+
