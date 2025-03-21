@@ -8,6 +8,8 @@ A Django-based API for managing user registration, balance, and currency exchang
 - **Balance Management**: Each user has a balance, which can be checked and used for currency exchanges.
 - **Currency Exchange**: Users can exchange currencies (USD, EUR, etc.) and check current exchange rates.
 - **Transaction History**: Users can view their currency exchange transaction history, optionally filterable by currency code or date.
+  
+<br><br>
 
 ## Installation
 
@@ -53,6 +55,7 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+<br><br>
 
 ## API Endpoints
 
@@ -70,11 +73,24 @@ Get exchange history. **JWT token required.**
 
 ### **POST** `/token/`  
 Get JWT token using username and password.
+<br><br>
 
 ---
 
 ## API Documentation with Swagger
 
 You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint.
+<br><br>
 
+## Running Tests
+
+### 1. Navigate to the directory containing the manage.py file
+```bash
+cd test-task
+```
+
+### 2. Run the test suite using the following command
+```bash
+python manage.py test
+```
 
