@@ -75,6 +75,6 @@ Get JWT token using username and password.
 
 ## API Documentation with Swagger
 
-You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint:
+You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint.
 
 
