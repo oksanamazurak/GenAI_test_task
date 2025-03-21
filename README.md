@@ -84,6 +84,38 @@ You can view the interactive API documentation using Swagger by navigating to th
 
 ---
 
+## Obtaining JWT Tokens
+
+To authenticate and access protected endpoints, you need to obtain a JWT token.
+
+### 1. Request JWT Token
+
+- **Endpoint**: `/token/`  
+- **Method**: `POST`  
+- **Request Body**:
+  ```json
+  {
+    "username": "your_username",
+    "password": "your_password"
+  }
+
+### 2. Response
+
+You will receive an access token and a refresh token:
+
+```json
+{
+  "access": "your_jwt_access_token",
+  "refresh": "your_jwt_refresh_token"
+}
+```
+
+### 3. Use the Access Token
+
+To access protected endpoints, include the access token in the `Authorization` header.
+
+---
+
 ## Running Tests
 
 ### 1. Navigate to the directory containing the manage.py file
