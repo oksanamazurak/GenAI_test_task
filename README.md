@@ -55,7 +55,7 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
-<br><br>
+---
 
 ## API Endpoints
 
@@ -81,6 +81,8 @@ Get JWT token using username and password.
 
 You can view the interactive API documentation using Swagger by navigating to the `/swagger` endpoint.
 <br><br>
+
+---
 
 ## Running Tests
 
