@@ -9,12 +9,14 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ["username", "password"]
         extra_kwargs = {"password": {"write_only": True}}
 
+
 class CurrencyExchangeSerializer(serializers.ModelSerializer):
     class Meta:
         model = CurrencyExchange
-        fields = '__all__'
+        fields = "__all__"
+
 
 class UserBalanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserBalance
-        fields = '__all__'
+        fields = "__all__"
