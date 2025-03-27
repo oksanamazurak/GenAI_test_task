@@ -81,9 +81,9 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "exchange",
-        "USER": "postgres",
-        "PASSWORD": "tranSistor25.07",
-        "HOST": "localhost",  # Or your PostgreSQL server IP
+        "USER": "",
+        "PASSWORD": "",
+        "HOST": "localhost",  
         "PORT": "5432",
     }
 }
